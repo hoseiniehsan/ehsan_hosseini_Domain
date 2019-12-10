@@ -1,0 +1,71 @@
+{
+  "traffic_signs": [
+    {
+      "id": 1,
+      "name": "red_light"
+    },
+    {
+      "name": "green_light",
+      "id": 2
+    },
+    {
+      "name": "yellow_light",
+      "id": 3
+    },
+    {
+      "name": "STOP",
+      "id": 4
+    }
+  ],
+  "signs_descriptions": [
+    {
+      "id": 1,
+      "shape": "circle",
+      "signId": 1
+    },
+    {
+      "shape": "circle",
+      "signId": "2",
+      "id": 2
+    },
+    {
+      "shape": "circle",
+      "signId": "3",
+      "id": 3
+    },
+    {
+      "shape": "octagon",
+      "color": "red",
+      "font_color": "white",
+      "signId": "4",
+      "id": 4
+    }
+  ],
+  "CAN-BUS": [
+    {
+        "name": "ECU_1",
+        "id": 1
+    },
+    {
+        "name": "ECU_2",
+        "id": 2
+    }
+  ],
+  "BUS_descriptions": [
+    {
+        "sensor_signal": "brake",
+        "ECU_Id": "1",
+        "id": 1
+    },
+    {
+        "sensor_signal": "left blinker",
+        "ECU_Id": "2",
+        "id": 2
+    },
+    {
+        "sensor_signal": "right blinker",
+        "ECU_Id": "2",
+        "id": 3
+    }
+  ]
+}

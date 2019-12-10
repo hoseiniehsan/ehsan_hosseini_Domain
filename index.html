@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Welcome to ehsan Hosseini Domain!</title>
+    </head>
+    <body>
+        <h1>Success!  The ehsan_hosseini_Domain server block is working!</h1>
+        
+        GET /routes
+        Accept: text/html
+
+        Response:
+        <h1>traffic_signs</h1>
+        <p>all of traffic_signs</p>
+        ... <table></table>
+        <script>
+            $.getJSON('/tasks/tasks.json').done(insertDataIntoTable);
+        </script>
+    </body>
+</html>
